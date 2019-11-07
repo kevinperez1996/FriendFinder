@@ -4,7 +4,7 @@ var friendsArray = [
     {
         name: "Kevin",
         photo: "XXXXXXX",
-        scores: [4, 5, 2, 5, 3, 2, 1, 5, 3, 1]
+        scores: [3, 3, 3, 3, 3, 3, 3, 3, 3, 3]
     }, 
     {
         name: "Bob", 
