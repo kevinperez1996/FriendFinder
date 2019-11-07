@@ -19,7 +19,7 @@ module.exports = function (app) {
         }
 
         var bestFriend = 0;
-        var minDiff = 20;
+        var minDiff = 40;
 
 
         for (var i = 0; i < friends.length; i++) {
