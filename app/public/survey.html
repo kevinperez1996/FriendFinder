@@ -11,240 +11,241 @@
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery.js"></script>
 
-    <title>Home Page</title>
+
+    <title>Survey Page</title>
 </head>
 
 <body>
     <div class="container">
-       
-                <form>
-                    <h2>Survey Questions</h2>
-                    <div class="form-group">
-                        <label for="exampleFormControlTextarea1">Name</label>
-                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="1"></textarea>
-                    </div>
-                    <div class="form-group">
-                        <label for="exampleFormControlTextarea1">Link to Photo</label>
-                        <textarea class="form-control chosen-single" id="exampleFormControlTextarea1"
-                            rows="1"></textarea>
-                    </div>
 
-                    <!-- QUESTION 1 -->
-                    <div class="form-group">
-                        <div class="row">
-                            <div class="col-sm">
-                                <label for="exampleFormControlSelect1">Example selectExample selectExample selectExample
-                                    selectExample selectExample selectExample select</label>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-sm-3">
-                                <select class="form-control" id="exampleFormControlSelect1">
-                                    <option>1 (Strongly Disagree)</option>
-                                    <option>2 (Disagree)</option>
-                                    <option selected>3 (Neutral)</option>
-                                    <option>4 (Agree)</option>
-                                    <option>5 (Strongly Agree)</option>
-                                </select>
-                            </div>
-                        </div>
-                    </div>
+        <form>
+            <h2>Survey Questions</h2>
+            <div class="form-group">
+                <label for="exampleFormControlTextarea1">Name</label>
+                <textarea class="form-control" id="nameInput" rows="1"></textarea>
+            </div>
+            <div class="form-group">
+                <label for="exampleFormControlTextarea1">Link to Photo</label>
+                <textarea class="form-control chosen-single" id="photoLink" rows="1"></textarea>
+            </div>
 
-                    <!-- QUESTION 2 -->
-                    <div class="form-group">
-                        <div class="row">
-                            <div class="col-sm">
-                                <label for="exampleFormControlSelect1">Example selectExample selectExample selectExample
-                                    selectExample selectExample selectExample select</label>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-sm-3">
-                                <select class="form-control" id="exampleFormControlSelect1">
-                                    <option>1 (Strongly Disagree)</option>
-                                    <option>2 (Disagree)</option>
-                                    <option selected>3 (Neutral)</option>
-                                    <option>4 (Agree)</option>
-                                    <option>5 (Strongly Agree)</option>
-                                </select>
-                            </div>
-                        </div>
+            <!-- QUESTION 1 -->
+            <div class="form-group">
+                <div class="row">
+                    <div class="col-sm">
+                        <label for="exampleFormControlSelect1">Example selectExample selectExample selectExample
+                            selectExample selectExample selectExample select</label>
                     </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-3">
+                        <select class="form-control" id="q1">
+                            <option value="1">1 (Strongly Disagree)</option>
+                            <option value="2">2 (Disagree)</option>
+                            <option value="3" selected>3 (Neutral)</option>
+                            <option value="4">4 (Agree)</option>
+                            <option value="5">5 (Strongly Agree)</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
 
-                    <!-- QUESTION 3 -->
-                    <div class="form-group">
-                        <div class="row">
-                            <div class="col-sm">
-                                <label for="exampleFormControlSelect1">Example selectExample selectExample selectExample
-                                    selectExample selectExample selectExample select</label>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-sm-3">
-                                <select class="form-control" id="exampleFormControlSelect1">
-                                    <option>1 (Strongly Disagree)</option>
-                                    <option>2 (Disagree)</option>
-                                    <option selected>3 (Neutral)</option>
-                                    <option>4 (Agree)</option>
-                                    <option>5 (Strongly Agree)</option>
-                                </select>
-                            </div>
-                        </div>
+            <!-- QUESTION 2 -->
+            <div class="form-group">
+                <div class="row">
+                    <div class="col-sm">
+                        <label for="exampleFormControlSelect1">Example selectExample selectExample selectExample
+                            selectExample selectExample selectExample select</label>
                     </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-3">
+                        <select class="form-control" id="q2">
+                            <option value="1">1 (Strongly Disagree)</option>
+                            <option value="2">2 (Disagree)</option>
+                            <option value="3" selected>3 (Neutral)</option>
+                            <option value="4">4 (Agree)</option>
+                            <option value="5">5 (Strongly Agree)</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
 
-                    <!-- QUESTION 4 -->
-                    <div class="form-group">
-                        <div class="row">
-                            <div class="col-sm">
-                                <label for="exampleFormControlSelect1">Example selectExample selectExample selectExample
-                                    selectExample selectExample selectExample select</label>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-sm-3">
-                                <select class="form-control" id="exampleFormControlSelect1">
-                                    <option>1 (Strongly Disagree)</option>
-                                    <option>2 (Disagree)</option>
-                                    <option selected>3 (Neutral)</option>
-                                    <option>4 (Agree)</option>
-                                    <option>5 (Strongly Agree)</option>
-                                </select>
-                            </div>
-                        </div>
+            <!-- QUESTION 3 -->
+            <div class="form-group">
+                <div class="row">
+                    <div class="col-sm">
+                        <label for="exampleFormControlSelect1">Example selectExample selectExample selectExample
+                            selectExample selectExample selectExample select</label>
                     </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-3">
+                        <select class="form-control" id="q3">
+                            <option value="1">1 (Strongly Disagree)</option>
+                            <option value="2">2 (Disagree)</option>
+                            <option value="3" selected>3 (Neutral)</option>
+                            <option value="4">4 (Agree)</option>
+                            <option value="5">5 (Strongly Agree)</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
 
-                    <!-- QUESTION 5 -->
-                    <div class="form-group">
-                        <div class="row">
-                            <div class="col-sm">
-                                <label for="exampleFormControlSelect1">Example selectExample selectExample selectExample
-                                    selectExample selectExample selectExample select</label>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-sm-3">
-                                <select class="form-control" id="exampleFormControlSelect1">
-                                    <option>1 (Strongly Disagree)</option>
-                                    <option>2 (Disagree)</option>
-                                    <option selected>3 (Neutral)</option>
-                                    <option>4 (Agree)</option>
-                                    <option>5 (Strongly Agree)</option>
-                                </select>
-                            </div>
-                        </div>
+            <!-- QUESTION 4 -->
+            <div class="form-group">
+                <div class="row">
+                    <div class="col-sm">
+                        <label for="exampleFormControlSelect1">Example selectExample selectExample selectExample
+                            selectExample selectExample selectExample select</label>
                     </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-3">
+                        <select class="form-control" id="q4">
+                            <option value="1">1 (Strongly Disagree)</option>
+                            <option value="2">2 (Disagree)</option>
+                            <option value="3" selected>3 (Neutral)</option>
+                            <option value="4">4 (Agree)</option>
+                            <option value="5">5 (Strongly Agree)</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
 
-                    <!-- QUESTION 6 -->
-                    <div class="form-group">
-                        <div class="row">
-                            <div class="col-sm">
-                                <label for="exampleFormControlSelect1">Example selectExample selectExample selectExample
-                                    selectExample selectExample selectExample select</label>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-sm-3">
-                                <select class="form-control" id="exampleFormControlSelect1">
-                                    <option>1 (Strongly Disagree)</option>
-                                    <option>2 (Disagree)</option>
-                                    <option selected>3 (Neutral)</option>
-                                    <option>4 (Agree)</option>
-                                    <option>5 (Strongly Agree)</option>
-                                </select>
-                            </div>
-                        </div>
+            <!-- QUESTION 5 -->
+            <div class="form-group">
+                <div class="row">
+                    <div class="col-sm">
+                        <label for="exampleFormControlSelect1">Example selectExample selectExample selectExample
+                            selectExample selectExample selectExample select</label>
                     </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-3">
+                        <select class="form-control" id="q5">
+                            <option value="1">1 (Strongly Disagree)</option>
+                            <option value="2">2 (Disagree)</option>
+                            <option value="3" selected>3 (Neutral)</option>
+                            <option value="4">4 (Agree)</option>
+                            <option value="5">5 (Strongly Agree)</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
 
-                    <!-- QUESTION 7 -->
-                    <div class="form-group">
-                        <div class="row">
-                            <div class="col-sm">
-                                <label for="exampleFormControlSelect1">Example selectExample selectExample selectExample
-                                    selectExample selectExample selectExample select</label>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-sm-3">
-                                <select class="form-control" id="exampleFormControlSelect1">
-                                    <option>1 (Strongly Disagree)</option>
-                                    <option>2 (Disagree)</option>
-                                    <option selected>3 (Neutral)</option>
-                                    <option>4 (Agree)</option>
-                                    <option>5 (Strongly Agree)</option>
-                                </select>
-                            </div>
-                        </div>
+            <!-- QUESTION 6 -->
+            <div class="form-group">
+                <div class="row">
+                    <div class="col-sm">
+                        <label for="exampleFormControlSelect1">Example selectExample selectExample selectExample
+                            selectExample selectExample selectExample select</label>
                     </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-3">
+                        <select class="form-control" id="q6">
+                            <option value="1">1 (Strongly Disagree)</option>
+                            <option value="2">2 (Disagree)</option>
+                            <option value="3" selected>3 (Neutral)</option>
+                            <option value="4">4 (Agree)</option>
+                            <option value="5">5 (Strongly Agree)</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
 
-                    <!-- QUESTION 8 -->
-                    <div class="form-group">
-                        <div class="row">
-                            <div class="col-sm">
-                                <label for="exampleFormControlSelect1">Example selectExample selectExample selectExample
-                                    selectExample selectExample selectExample select</label>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-sm-3">
-                                <select class="form-control" id="exampleFormControlSelect1">
-                                    <option>1 (Strongly Disagree)</option>
-                                    <option>2 (Disagree)</option>
-                                    <option selected>3 (Neutral)</option>
-                                    <option>4 (Agree)</option>
-                                    <option>5 (Strongly Agree)</option>
-                                </select>
-                            </div>
-                        </div>
+            <!-- QUESTION 7 -->
+            <div class="form-group">
+                <div class="row">
+                    <div class="col-sm">
+                        <label for="exampleFormControlSelect1">Example selectExample selectExample selectExample
+                            selectExample selectExample selectExample select</label>
                     </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-3">
+                        <select class="form-control" id="q7">
+                            <option value="1">1 (Strongly Disagree)</option>
+                            <option value="2">2 (Disagree)</option>
+                            <option value="3" selected>3 (Neutral)</option>
+                            <option value="4">4 (Agree)</option>
+                            <option value="5">5 (Strongly Agree)</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
 
-                    <!-- QUESTION 9 -->
-                    <div class="form-group">
-                        <div class="row">
-                            <div class="col-sm">
-                                <label for="exampleFormControlSelect1">Example selectExample selectExample selectExample
-                                    selectExample selectExample selectExample select</label>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-sm-3">
-                                <select class="form-control" id="exampleFormControlSelect1">
-                                    <option>1 (Strongly Disagree)</option>
-                                    <option>2 (Disagree)</option>
-                                    <option selected>3 (Neutral)</option>
-                                    <option>4 (Agree)</option>
-                                    <option>5 (Strongly Agree)</option>
-                                </select>
-                            </div>
-                        </div>
+            <!-- QUESTION 8 -->
+            <div class="form-group">
+                <div class="row">
+                    <div class="col-sm">
+                        <label for="exampleFormControlSelect1">Example selectExample selectExample selectExample
+                            selectExample selectExample selectExample select</label>
                     </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-3">
+                        <select class="form-control" id="q8">
+                            <option value="1">1 (Strongly Disagree)</option>
+                            <option value="2">2 (Disagree)</option>
+                            <option value="3" selected>3 (Neutral)</option>
+                            <option value="4">4 (Agree)</option>
+                            <option value="5">5 (Strongly Agree)</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
 
-                    <!-- QUESTION 10 -->
-                    <div class="form-group">
-                        <div class="row">
-                            <div class="col-sm">
-                                <label for="exampleFormControlSelect1">Example selectExample selectExample selectExample
-                                    selectExample selectExample selectExample select</label>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-sm-3">
-                                <select class="form-control" id="exampleFormControlSelect1">
-                                    <option>1 (Strongly Disagree)</option>
-                                    <option>2 (Disagree)</option>
-                                    <option selected>3 (Neutral)</option>
-                                    <option>4 (Agree)</option>
-                                    <option>5 (Strongly Agree)</option>
-                                </select>
-                            </div>
-                        </div>
+            <!-- QUESTION 9 -->
+            <div class="form-group">
+                <div class="row">
+                    <div class="col-sm">
+                        <label for="exampleFormControlSelect1">Example selectExample selectExample selectExample
+                            selectExample selectExample selectExample select</label>
                     </div>
-                </form>
-        
-        <a class="btn btn-primary btn-lg" href="/survey" role="button">Submit</a>
+                </div>
+                <div class="row">
+                    <div class="col-sm-3">
+                        <select class="form-control" id="q9">
+                            <option value="1">1 (Strongly Disagree)</option>
+                            <option value="2">2 (Disagree)</option>
+                            <option value="3" selected>3 (Neutral)</option>
+                            <option value="4">4 (Agree)</option>
+                            <option value="5">5 (Strongly Agree)</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+
+            <!-- QUESTION 10 -->
+            <div class="form-group">
+                <div class="row">
+                    <div class="col-sm">
+                        <label for="exampleFormControlSelect1">Example selectExample selectExample selectExample
+                            selectExample selectExample selectExample select</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-3">
+                        <select class="form-control" id="q10">
+                            <option value="1">1 (Strongly Disagree)</option>
+                            <option value="2">2 (Disagree)</option>
+                            <option value="3" selected>3 (Neutral)</option>
+                            <option value="4">4 (Agree)</option>
+                            <option value="5">5 (Strongly Agree)</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </form>
+
+        <a class="btn btn-primary btn-lg submitSurvey" role="button">Submit</a>
         <hr>
         <footer class="footer mt-4">
             <div class="container">
-                <p><a href="/api/friends">API Friends List</a> | <a href="https://github.com/kevinperez1996/FriendFinder">GitHub Repo</a>
+                <p><a href="/api/friends">API Friends List</a> | <a
+                        href="https://github.com/kevinperez1996/FriendFinder">GitHub Repo</a>
             </div>
         </footer>
     </div>
@@ -253,3 +254,48 @@
 </body>
 
 </html>
+
+
+<script type="text/javascript">
+
+    $(".submitSurvey").on("click", function (event) {
+        event.preventDefault();
+
+        var q1 = $("#q1").val();
+        var q2 = $("#q2").val();
+        var q3 = $("#q3").val();
+        var q4 = $("#q4").val();
+        var q5 = $("#q5").val();
+        var q6 = $("#q6").val();
+        var q7 = $("#q7").val();
+        var q8 = $("#q8").val();
+        var q9 = $("#q9").val();
+        var q10 = $("#q10").val();
+
+        var newFriend =
+        {
+            name: $("#nameInput").val().trim(),
+            photo: $("#photoLink").val().trim(),
+            scores: [q1, q2, q3, q4, q5, q6, q7, q8, q9, q10]
+        }
+
+        console.log(newFriend);
+
+        var currentURL = window.location.origin;
+
+        $.post("/api/friends", newFriend, function (data) {
+
+            if(data){
+                alert("ADDED");
+
+            }
+            else {
+                alert ("ERROR");
+            }
+
+        });
+    })
+
+
+</script>
+
