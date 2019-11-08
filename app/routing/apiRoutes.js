@@ -40,7 +40,7 @@ module.exports = function (app) {
         friends.push(response);
         res.json(friends[bestFriend]);
 
-        console.log(friends[bestFriend]);
+       
 
     });
 }
